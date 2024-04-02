@@ -208,14 +208,13 @@ body {
 .btn-delete {
   position: absolute;
   right: 2.4rem;
-
-  height: 1.8rem;
-  aspect-ratio: 1;
+  padding: 4px 4px;
+  height: 2rem;
   border-radius: 50%;
   border: none;
   background-color: var(--color-red);
   color: var(--color-background-900);
-  font-size: 0.9rem;
+  font-size: 1.2rem;
   font-weight: bold;
   cursor: pointer;
   transition: all 0.3s;
@@ -229,13 +228,13 @@ body {
   position: absolute;
   right: 2.4rem;
 
-  height: 1.8rem;
-  aspect-ratio: 1;
+  height: 2rem;
+  padding: 4px 4px;
   border-radius: 50%;
   border: none;
   background-color: rgb(124, 124, 233);
   color: var(--color-background-900);
-  font-size: 0.9rem;
+  font-size: 1.2rem;
   font-weight: bold;
   cursor: pointer;
   transition: all 0.3s;

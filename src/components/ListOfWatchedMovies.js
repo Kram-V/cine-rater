@@ -5,6 +5,9 @@ import EditMovieDetails from "./EditMovieDetails";
 import { Tooltip as ReactTooltip } from "react-tooltip";
 import "react-tooltip/dist/react-tooltip.css";
 
+import { MdDelete } from "react-icons/md";
+import { MdEditSquare } from "react-icons/md";
+
 export default function ListOfWatchedMovies({
   watched,
   avgImdbRating,
@@ -108,7 +111,7 @@ export default function ListOfWatchedMovies({
                       className="btn-edit"
                       style={{ marginRight: "24px" }}
                     >
-                      E
+                      <MdEditSquare />
                     </button>
 
                     <button
@@ -116,7 +119,7 @@ export default function ListOfWatchedMovies({
                       onClick={() => handleRemoveWatchedMovie(movie.imdbID)}
                       className="btn-delete"
                     >
-                      X
+                      <MdDelete />
                     </button>
                   </div>
                 </li>
