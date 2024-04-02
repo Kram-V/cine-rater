@@ -49,7 +49,7 @@ export default function MovieDetails({
     document.title = `Movie | ${title}`;
 
     return function () {
-      document.title = "usePopcorn";
+      document.title = "Cine Rater";
     };
   }, [title]);
 
