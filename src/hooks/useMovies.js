@@ -15,7 +15,7 @@ export function useMovies(query) {
       setMoviesLoading(true);
       setMoviesErrorMessage("");
       const response = await axios.get(
-        `http://www.omdbapi.com/?apikey=${KEY}&s=${debouncedQuery}`
+        `https://www.omdbapi.com/?apikey=${KEY}&s=${debouncedQuery}`
       );
 
       if (response.data.Error) throw new Error(response.data.Error);
